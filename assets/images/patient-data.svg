@@ -1,0 +1,30 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg1" x1="140" y1="80" x2="1120" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#142C2B"/>
+      <stop offset="1" stop-color="#0B1C1E"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="150" y1="150" x2="920" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1C4F55"/>
+      <stop offset="1" stop-color="#123E45"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg1)"/>
+  <circle cx="202" cy="160" r="120" fill="#2CC4A3" fill-opacity="0.12"/>
+  <circle cx="998" cy="618" r="150" fill="#79F2D0" fill-opacity="0.08"/>
+  <rect x="140" y="116" width="920" height="568" rx="28" fill="url(#panel)" stroke="#74F2D0" stroke-opacity="0.4"/>
+  <rect x="210" y="200" width="230" height="230" rx="24" fill="#0F272C" stroke="#74F2D0" stroke-opacity="0.8"/>
+  <rect x="266" y="252" width="118" height="124" rx="18" fill="#2CC4A3" fill-opacity="0.2"/>
+  <rect x="300" y="278" width="50" height="72" rx="10" fill="#74F2D0"/>
+  <rect x="285" y="293" width="80" height="14" rx="7" fill="#0F272C"/>
+  <rect x="620" y="220" width="330" height="46" rx="20" fill="#7AF2D0" fill-opacity="0.15"/>
+  <rect x="620" y="294" width="300" height="22" rx="11" fill="#DFFCF7" fill-opacity="0.5"/>
+  <rect x="620" y="340" width="260" height="22" rx="11" fill="#DFFCF7" fill-opacity="0.35"/>
+  <rect x="620" y="386" width="290" height="22" rx="11" fill="#DFFCF7" fill-opacity="0.2"/>
+  <rect x="620" y="452" width="240" height="90" rx="18" fill="#0F272C" stroke="#74F2D0" stroke-opacity="0.7"/>
+  <path d="M690 484H760" stroke="#74F2D0" stroke-width="10" stroke-linecap="round"/>
+  <path d="M725 449V519" stroke="#74F2D0" stroke-width="10" stroke-linecap="round"/>
+  <rect x="290" y="512" width="560" height="82" rx="20" fill="#0F272C" fill-opacity="0.7"/>
+  <text x="210" y="700" fill="#DFFCF7" font-family="Segoe UI, Arial, sans-serif" font-size="56" font-weight="700">Patient Data</text>
+  <text x="210" y="746" fill="#A3F7E7" font-family="Segoe UI, Arial, sans-serif" font-size="24" letter-spacing="3">BLOCKCHAIN HEALTH RECORDS</text>
+</svg>

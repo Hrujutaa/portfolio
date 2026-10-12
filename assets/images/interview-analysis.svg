@@ -1,0 +1,32 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1200" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0E1327"/>
+      <stop offset="1" stop-color="#171B36"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="300" y1="200" x2="900" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1F2A54"/>
+      <stop offset="1" stop-color="#101932"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg2)"/>
+  <circle cx="970" cy="165" r="140" fill="#74A8FF" fill-opacity="0.12"/>
+  <circle cx="196" cy="648" r="160" fill="#8BF0FF" fill-opacity="0.07"/>
+  <rect x="170" y="110" width="860" height="580" rx="28" fill="url(#screen)" stroke="#8AB8FF" stroke-opacity="0.5"/>
+  <rect x="250" y="200" width="260" height="300" rx="28" fill="#0B1125" stroke="#8AB8FF" stroke-opacity="0.6"/>
+  <circle cx="380" cy="300" r="72" fill="#8AB8FF" fill-opacity="0.18" stroke="#8AB8FF" stroke-width="8"/>
+  <path d="M334 346C350 324 366 314 380 314C394 314 410 324 426 346" stroke="#8AB8FF" stroke-width="10" stroke-linecap="round"/>
+  <path d="M355 292C365 274 372 265 380 265C388 265 395 274 405 292" stroke="#8AB8FF" stroke-width="10" stroke-linecap="round"/>
+  <path d="M332 406H428" stroke="#8AB8FF" stroke-width="10" stroke-linecap="round"/>
+  <rect x="610" y="220" width="300" height="28" rx="14" fill="#CFE1FF" fill-opacity="0.5"/>
+  <rect x="610" y="282" width="260" height="22" rx="11" fill="#CFE1FF" fill-opacity="0.25"/>
+  <rect x="610" y="332" width="300" height="22" rx="11" fill="#CFE1FF" fill-opacity="0.2"/>
+  <rect x="610" y="382" width="220" height="22" rx="11" fill="#CFE1FF" fill-opacity="0.18"/>
+  <rect x="610" y="450" width="220" height="120" rx="15" fill="#0B1125" stroke="#8AB8FF" stroke-opacity="0.5"/>
+  <path d="M640 520L700 480L760 540" stroke="#8BF0FF" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="640" cy="520" r="10" fill="#8BF0FF"/>
+  <circle cx="700" cy="480" r="10" fill="#8BF0FF"/>
+  <circle cx="760" cy="540" r="10" fill="#8BF0FF"/>
+  <text x="180" y="710" fill="#EAF2FF" font-family="Segoe UI, Arial, sans-serif" font-size="52" font-weight="700">Interview Analysis</text>
+  <text x="180" y="754" fill="#A8C5FF" font-family="Segoe UI, Arial, sans-serif" font-size="24" letter-spacing="3">REAL-TIME FACE & LIVELINESS CHECK</text>
+</svg>

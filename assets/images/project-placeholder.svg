@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-labelledby="title">
+  <title id="title">Project screenshot placeholder</title>
+  <rect width="900" height="560" fill="#17211b"/>
+  <path d="M0 72h900" stroke="#344038"/>
+  <circle cx="28" cy="36" r="7" fill="#ff9c69"/><circle cx="52" cy="36" r="7" fill="#b7f36b"/><circle cx="76" cy="36" r="7" fill="#7c9382"/>
+  <rect x="64" y="132" width="772" height="340" rx="8" fill="#202a25" stroke="#344038"/>
+  <path d="M115 205h275M115 238h185M115 296h232M115 329h312" stroke="#829184" stroke-width="9" stroke-linecap="round" opacity=".45"/>
+  <path d="M530 399V319h57v80m19 0V267h57v132m19 0V230h57v169" fill="#b7f36b" opacity=".66"/>
+  <text x="450" y="520" fill="#b7f36b" font-family="monospace" font-size="15" text-anchor="middle" letter-spacing="2">ADD A PROJECT SCREENSHOT</text>
+</svg>

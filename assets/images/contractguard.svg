@@ -1,0 +1,27 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg3" x1="80" y1="50" x2="1120" y2="760" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#191427"/>
+      <stop offset="1" stop-color="#120F20"/>
+    </linearGradient>
+    <linearGradient id="doc" x1="280" y1="150" x2="960" y2="610" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3C2F63"/>
+      <stop offset="1" stop-color="#241C3E"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg3)"/>
+  <circle cx="285" cy="622" r="185" fill="#C59BF8" fill-opacity="0.08"/>
+  <circle cx="988" cy="180" r="160" fill="#7C8CFF" fill-opacity="0.08"/>
+  <rect x="180" y="120" width="840" height="560" rx="30" fill="url(#doc)" stroke="#D7B8FF" stroke-opacity="0.45"/>
+  <rect x="260" y="190" width="390" height="360" rx="24" fill="#120F20" stroke="#D7B8FF" stroke-opacity="0.6"/>
+  <path d="M334 262H540" stroke="#E7D5FF" stroke-width="16" stroke-linecap="round"/>
+  <path d="M334 320H520" stroke="#E7D5FF" stroke-width="16" stroke-linecap="round" opacity="0.7"/>
+  <path d="M334 378H548" stroke="#E7D5FF" stroke-width="16" stroke-linecap="round" opacity="0.7"/>
+  <path d="M334 436H500" stroke="#E7D5FF" stroke-width="16" stroke-linecap="round" opacity="0.55"/>
+  <rect x="710" y="240" width="220" height="220" rx="110" fill="#7C8CFF" fill-opacity="0.15"/>
+  <path d="M825 290L777 338L745 306" stroke="#D7B8FF" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M771 423L825 468L897 371" stroke="#D7B8FF" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+  <rect x="270" y="600" width="430" height="26" rx="13" fill="#D7B8FF" fill-opacity="0.2"/>
+  <text x="180" y="706" fill="#F1E8FF" font-family="Segoe UI, Arial, sans-serif" font-size="56" font-weight="700">ContractGuard</text>
+  <text x="180" y="754" fill="#D7B8FF" font-family="Segoe UI, Arial, sans-serif" font-size="24" letter-spacing="3">NLP RISK ANALYSIS</text>
+</svg>

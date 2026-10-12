@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="title">
+  <title id="title">Contribution photograph placeholder</title>
+  <rect width="800" height="520" fill="#17211b"/>
+  <circle cx="400" cy="225" r="130" fill="#b7f36b" opacity=".12"/>
+  <g fill="#839588"><circle cx="255" cy="218" r="49"/><circle cx="400" cy="190" r="60"/><circle cx="545" cy="218" r="49"/></g>
+  <path d="M155 422c9-105 43-156 100-156s91 51 100 156m-38 0c9-123 37-184 83-184s74 61 83 184m-37 0c9-105 43-156 100-156s91 51 100 156" fill="#b7f36b" opacity=".35"/>
+  <text x="400" y="480" fill="#b7f36b" font-family="monospace" font-size="15" text-anchor="middle" letter-spacing="2">ADD A TEAM / EVENT PHOTO</text>
+</svg>

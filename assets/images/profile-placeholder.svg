@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 780" role="img" aria-labelledby="title desc">
+  <title id="title">Profile image placeholder</title>
+  <desc id="desc">An abstract portrait placeholder in the portfolio's dark green and mint palette.</desc>
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#27362e"/><stop offset="1" stop-color="#121a16"/></linearGradient></defs>
+  <rect width="640" height="780" fill="url(#bg)"/>
+  <circle cx="320" cy="284" r="132" fill="#b7f36b" opacity=".12"/>
+  <path d="M111 746c17-170 94-255 209-255s192 85 209 255" fill="#b7f36b" opacity=".18"/>
+  <circle cx="320" cy="280" r="97" fill="#9eaf9d"/>
+  <path d="M222 282c-3-100 42-145 111-145 72 0 115 53 101 150-28-9-47-30-58-57-28 38-81 59-154 58z" fill="#202a25"/>
+  <path d="M277 320q43 34 86 0" fill="none" stroke="#28332b" stroke-width="8" stroke-linecap="round"/>
+  <path d="M290 279h2m57 0h2" stroke="#28332b" stroke-width="12" stroke-linecap="round"/>
+  <text x="320" y="704" fill="#b7f36b" font-family="monospace" font-size="16" text-anchor="middle" letter-spacing="3">YOUR PHOTO HERE</text>
+</svg>
