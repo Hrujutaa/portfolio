@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title">
+  <title id="title">Gallery photograph placeholder</title>
+  <defs><linearGradient id="g" x2="1" y2="1"><stop stop-color="#334638"/><stop offset="1" stop-color="#17211b"/></linearGradient></defs>
+  <rect width="800" height="600" fill="url(#g)"/>
+  <circle cx="608" cy="139" r="61" fill="#b7f36b" opacity=".6"/>
+  <path d="M0 410 181 235l127 127 122-153 370 342v49H0z" fill="#59705d"/>
+  <path d="m0 471 228-172 116 119 105-94 351 206v64H0z" fill="#25382b"/>
+  <text x="400" y="553" fill="#b7f36b" font-family="monospace" font-size="15" text-anchor="middle" letter-spacing="2">ADD YOUR PHOTO HERE</text>
+</svg>
