@@ -14,7 +14,7 @@ window.PORTFOLIO = {
     goatCounterCode: ""
   },
   visitorLog: {
-    apiBaseUrl: "https://rxwldfijppqkjhhkoiho.supabase.co"
+    apiBaseUrl: "https://portfolio0-hh36.onrender.com"
   },
   socials: [
     { label: "GitHub", url: "https://github.com/Hrujutaa" },
