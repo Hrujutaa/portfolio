@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111714">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Visitor Admin — Hrujuta Sonkusare</title>
+  <script defer src="js/data.js"></script>
+  <script defer src="js/admin.js"></script>
+</head>
+<body>
+  <header class="admin-header">
+    <a class="brand" href="index.html"><span class="brand-mark">h.</span><span>Hrujuta</span></a>
+    <a class="admin-back-link" href="index.html">Back to portfolio</a>
+  </header>
+  <main class="admin-main">
+    <section class="admin-heading">
+      <p class="eyebrow">PRIVATE DASHBOARD</p>
+      <h1>Visitor <span class="accent-text">records.</span></h1>
+      <p class="lead">Access is restricted to the site administrator. Visitor IP addresses are personal data.</p>
+    </section>
+    <section class="admin-panel" id="admin-login-panel">
+      <h2>Admin sign in</h2>
+      <form id="admin-login-form" class="admin-login-form">
+        <label for="admin-password">Admin password</label>
+        <input id="admin-password" name="password" type="password" autocomplete="current-password" required>
+        <button class="button button-primary" type="submit">Sign in</button>
+      </form>
+      <p class="admin-message" id="admin-login-message" role="status" aria-live="polite"></p>
+    </section>
+    <section id="admin-dashboard" hidden>
+      <div class="admin-dashboard-actions">
+        <label class="admin-month-filter" for="visit-period">Visit period
+          <select id="visit-period">
+            <option value="all">Overall</option>
+            <option value="month">By month</option>
+          </select>
+        </label>
+        <label class="admin-month-filter" id="visit-month-filter" for="visit-month" hidden>Month
+          <input id="visit-month" type="month">
+        </label>
+        <button class="button button-outline" id="admin-logout" type="button">Sign out</button>
+      </div>
+      <div class="admin-stats" aria-live="polite">
+        <article class="metric-card"><strong id="total-visits">—</strong><small>Total number of visits</small></article>
+        <article class="metric-card"><strong id="filtered-visits">—</strong><small id="filtered-label">Visits shown</small></article>
+      </div>
+      <p class="admin-message" id="admin-data-message" role="status" aria-live="polite"></p>
+      <div class="admin-table-wrap">
+        <table class="admin-table">
+          <thead>
+            <tr>
+              <th scope="col">Visit ID</th>
+              <th scope="col">Date</th>
+              <th scope="col">Entry time (IST)</th>
+              <th scope="col">IP address</th>
+              <th scope="col">Page</th>
+              <th scope="col">Status</th>
+              <th scope="col">Estimated exit</th>
+              <th scope="col">Duration</th>
+              <th scope="col">Last activity</th>
+            </tr>
+          </thead>
+          <tbody id="visit-rows"></tbody>
+        </table>
+      </div>
+      <nav class="admin-pagination" aria-label="Visitor record pages">
+        <button class="button button-outline" id="previous-page" type="button">Previous</button>
+        <span id="page-indicator">Page 1 of 1</span>
+        <button class="button button-outline" id="next-page" type="button">Next</button>
+      </nav>
+    </section>
+  </main>
+  <footer class="admin-footer">Visitor records are visible only after signing in.</footer>
+</body>
+</html>
