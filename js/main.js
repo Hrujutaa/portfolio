@@ -251,7 +251,7 @@
   window.setTimeout(() => document.querySelector(".preloader")?.classList.add("preloader-done"), 320);
   document.querySelector("#site-footer").innerHTML = `
     <footer class="footer"><div class="footer-main"><a class="brand" href="index.html"><span class="brand-mark">h.</span><span>Hrujuta</span></a><p>Curious mind. Student builder. Future data storyteller.</p></div>
-    <div class="footer-links"><a href="projects.html">Projects</a><a href="about.html">About</a><a href="contact.html">Get in touch</a>${data.visitorLog?.apiBaseUrl?.trim() ? '<span class="visitor-count">Recorded visits: <strong data-visitor-count aria-live="polite">Loading...</strong></span><button type="button" class="visitor-log-settings">Visitor log privacy</button>' : ""}</div>
+    <div class="footer-links"><a href="projects.html">Projects</a><a href="about.html">About</a><a href="contact.html">Get in touch</a><a href="admin.html">Admin</a>${data.visitorLog?.apiBaseUrl?.trim() ? '<span class="visitor-count">Recorded visits: <strong data-visitor-count aria-live="polite">Loading...</strong></span><button type="button" class="visitor-log-settings">Visitor log privacy</button>' : ""}</div>
     <p class="copyright">© <span data-year></span> ${esc(data.name)} <span class="footer-dot">·</span> Crafted with curiosity.</p></footer>
     <button class="back-top" aria-label="Back to top" type="button">↑</button>`;
   setupVisitorLog();
